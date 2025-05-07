@@ -7,8 +7,8 @@ import torch.nn.functional as F
 
 from ultralytics.utils.torch_utils import fuse_conv_and_bn
 
-from modules.conv import Conv, DWConv, GhostConv, LightConv, RepConv, autopad
-from modules.transformer import TransformerBlock
+from yamlmods.conv import Conv, DWConv, GhostConv, LightConv, RepConv, autopad
+from yamlmods.transformer import TransformerBlock
 
 __all__ = (
     "DFL",
